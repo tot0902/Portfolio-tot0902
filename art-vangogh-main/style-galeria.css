@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding-top: 0px;
+    top: 0px;
+    left: 0;
+    background-color: lightgray;
+}
+
+.logo{
+    width: 200px;
+    height: 57px;
+}
+
+.titulo{
+    background-color: lightyellow;
+    width: 100%;
+    margin: 0px;
+    padding: 0;
+    border: 0;
+}
+
+
+/* Menu de inicio'inicio*/
+.texto-menu{
+    text-align: right;
+}
+
+.informacion{
+    font-size: 30px;
+    margin: 10px;
+    display: inline-block;
+    border-width: 3px;
+    border-radius: 40px;
+    border-color: black;
+    border-style: solid;
+}
+
+.celda-menu{
+    display: inline-block;
+    margin: 0;
+    width: 47%;
+    border: 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.links-h:hover{
+    background-color: lightsalmon;
+    transform: scale(0.93);
+}
+
+.config-links{
+    text-decoration: none;
+    padding: 5px;
+}
+/* Menu de inicio'fin*/
+
+
+/*Galeria de Imagenes'inicio*/
+.presentacion-vg{
+    width: 100%;
+    height: 790px;
+}
+
+.texto-galeria{
+    text-align: center;
+    background-color: lightpink;
+    width: 800px;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.imagenes{
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    margin: 30px;
+}
+.galeria{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.imagenes:hover{
+    transform: scale(0.93);
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    transition-property: all 200ms;
+
+}
+
+.video:hover{
+    transform: scale(0.93);
+    transition-duration: 300ms;
+    transition-delay: 200ms;
+    transition-property: all 200ms;
+}
+
+.video{
+    margin-top: 100px;
+    border: 7px;
+    border-style: double;
+    border-color: black;
+    margin-left: 20%;
+    margin-bottom: 70px;
+
+}
+/*Galeria de Imagenes*/
